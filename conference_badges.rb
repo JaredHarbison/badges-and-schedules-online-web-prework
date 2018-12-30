@@ -10,8 +10,8 @@ def batch_badge_creator (attendees)
   return badges
 end
 
-def assign_room 
-  assign_room (speakers)
+def assign_rooms
+  assign_rooms (speakers)
   assign=[]
   speakers.each_with_index{|speaker,index|
   assign.push("Hello, #{speaker}! You'll be assigned to room #{index + 1}!")
